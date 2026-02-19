@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f3f4f6;
+}
+
+/* Fade animation */
+.fade-in {
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Scrollbar */
+.slot-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.slot-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.slot-container::-webkit-scrollbar-thumb {
+    background: #c7c7c7;
+    border-radius: 4px;
+}
+
+.slot-container::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
